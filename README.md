@@ -29,16 +29,15 @@
         e. ‘/nodes/resolve’
         
    8. Sample EHR records are still executed on ‘/transactions/new’. JSON should be in the form: 
-        
-        ```javascript
+   ```javascript
 {
-          "patient": "Bart Simpson",
-          "physician": "Doogie Howser",
-          "date": "Feb 20, 2018",
-          "notes": "Annual physical"
-        }
+    "patient": "Bart Simpson",
+    "physician": "Doogie Howser",
+    "date": "Feb 20, 2018",
+    "notes": "Annual physical"
+}
 ```
-
+        
    8. Be sure to *terminate* the instance when you’re done: ```python eb terminate blockchain-env ```
    
    
