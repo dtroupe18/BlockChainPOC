@@ -21,12 +21,12 @@
     
     
     
-    7. You can use the blockchain by executing *GET / POSTS* requests to the corresponding URL. For example given the base url returned from EB: [http://blockchain-env.frpxa3yuwp.us-east-1.elasticbeanstalk.com/]() you can make requests to: **
-        a. ‘/mine’
-        b. ‘/transactions/new’
-        c. ‘/chain’
-        d. ‘/nodes/register’
-        e. ‘/nodes/resolve’ **
+    7. You can use the blockchain by executing *GET / POSTS* requests to the corresponding URL. For example given the base url returned from EB: [http://blockchain-env.frpxa3yuwp.us-east-1.elasticbeanstalk.com/]() you can make requests to: 
+        a. **‘/mine’**
+        b. **‘/transactions/new’**
+        c. **‘/chain’**
+        d. **‘/nodes/register’**
+        e. **‘/nodes/resolve’ **
         
    8. Sample EHR records are still executed on **‘/transactions/new’**. JSON should be in the form: 
 ```javascript
