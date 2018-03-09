@@ -12,12 +12,12 @@
 ## Deploy Flask Application to AWS
 - [AWS Directions](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/create-deploy-python-flask.html)
 - Notes:
-    1. After: ```python pip install flask==0.10.1 ``` **install requests** ```python pip3 install requests ``` or you can just copy the requirements.txt file from this repo!
+    1. After: ```python pip install flask==0.10.1 ``` **install requests** ```pip3 install requests ``` or you can just copy the requirements.txt file from this repo!
     2. **Don’t use:** ```python ~/eb-flask$ eb init -p python2.7 flask-tutorial ``` Use: ```python eb init ``` and follow the prompts. 
-    3. The remainder of the directions assume you name your environment ```python blockchain-env ```
+    3. The remainder of the directions assume you name your environment ```blockchain-env ```
     4. **Python version is 3.6.0**
     5. You can find the AWS credentials in the slack channel (look for an excel file) or you can create your own if you’re using your own Amazon account.
-    6. You can open the Flask application using: ```python eb open ``` You should see a new tab open in your browser that looks like this:
+    6. You can open the Flask application using: ```eb open ``` You should see a new tab open in your browser that looks like this:
     
     
     
